@@ -10,4 +10,6 @@ export class MovieDto {
     @Min(1888)
     @Max(new Date().getFullYear())
     release_year: number
+    imageUrl: string
+    actorsIds: string[]
 }

@@ -15,7 +15,7 @@ export class MovieController {
   async findById(@Param('id') id: string) {
     return this.movieService.findById(id)
   }
-  
+
 
   @Post()
   async create(@Body() dto: MovieDto) {
